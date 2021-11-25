@@ -1,78 +1,38 @@
-<!DOCTYPE html>
-        <html>
-            <head>
-                <title>Solar System</title>
-                <style>
-                    table,th,td {
-                        border: 2px solid black;
-                    }
-                </style>
-            </head>
-           <body style="background-color:wheat">
-<script>
-	alert(window.screen.size);
-</script>
-<form>
-        <fieldset form="user_regn" name="user_details"> <legend>Personal Details</legend>
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
-        <label for="birthday">Birthday:</label>
-        <input type="date" id="birthday" name="birthday"><br><br>
-    </fieldset>
- <fieldset form="user_regn" name="user_details"> 
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
-        <label for="birthday">Birthday:</label>
-        <input type="date" id="birthday" name="birthday"><br><br>
-    </fieldset>
-    <input type="submit" value="Submit">
-</form>
-                <h1 style="font-family: Cursive;font-size:70px;color:rgb(139,0,0)">Solar System</h1>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Planets2013.svg" alt="Solar System image" height= "250px" width="700px">
-                <p>The solar system consists of the sun and everything that orbits the sun. This includes the eight planets and their moons, the dwarf planets, asteroids, comets and other small objects.
-                </p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Interest Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
 
-                <p> All the planets and dwarf planets, the rocky asteroids, and the icy bodies in the Kuiper belt move around the Sun in elliptical orbits in the same direction that the Sun rotates. This motion is termed prograde, or direct, motion.
-                </p>
-                <p><strong><u> Planets in the solar system: </u></strong> </p>
-                <table style="border:2px solid black">
-                    <tr style="background-color:yellow">
-                        <th>No. </th>
-                        <th>Planet Name </th>
-                        <th>Distance from Sun </th>
-                    </tr>
-                    <tr>
-                        <td>1 </td> <td>Mercury</td> <td>57.91 m km</td>
-                    </tr>
-                    <tr>
-                        <td>2 </td> <td>Venus</td> <td>108.2 m km</td>
-                    </tr>
-                    <tr>
-                        <td>3 </td> <td>Earth</td> <td>149.6 m km</td>
-                    </tr>
-                    <tr>
-                        <td>4 </td> <td>Mars</td> <td>227.9 m km</td>
-                    </tr>
-                    <tr>
-                        <td>5 </td> <td>Jupiter</td> <td>778.5 m km</td>
-                    </tr>
-                    <tr>
-                        <td>6 </td> <td>Saturn</td> <td>1.434 b km</td>
-                    </tr>
-                    <tr>
-                        <td>7 </td> <td>Uranus</td> <td>2.871 b km</td>
-                    </tr>
-                    <tr>
-                        <td>8</td> <td>Neptune</td> <td>4.495 billion km</td>
-                    </tr>
-               </table>
-            </body>
-        </html>
+       <div>
+        <h1>Simple Interest Calculator</h1>
+
+       
+    <form>
+        
+            
+            <label>Amount</label>
+            <input type="number" id="inputID" name="inputAmount">
+            <br>
+            <br>
+            <label>Interest Rate</label>
+            <input type="range" id="inputRange" name="inputRange" min="0" max="10" value="1">
+            <br>
+            <br>
+            <label>No.of Years</label>
+            <input type="number" min="0" max="10" value="1">
+            <br>
+            <br>
+            <button>Compute Interest</button>
+           
+    </form>
+    </div>
+
+</body>
+</html>
