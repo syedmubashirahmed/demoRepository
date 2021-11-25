@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+div {
+    background-color: whitesmoke;
+    margin-top: 5%;
+    margin-left:12%;
+    width: 75%;
+   height: 75%;
+    padding: 10px;
+    border-radius: 40px;
+    
+}
+form {
+    font-family: sans-serif;
+    font-size: 22px;
+    color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5% 22%;
+    width: 50%;
+    
+   
+    
+
+
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:grey
+}
