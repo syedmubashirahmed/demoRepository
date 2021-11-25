@@ -12,7 +12,6 @@ function compute(){
     var years = document.getElementById("years").value;
     var interest = principal * years * rate /100;
     var year = new Date().getFullYear()+parseInt(years);
-    var totalAmount=parseInt(principal)+parseInt(interest);
     var amount=document.getElementById("principal").value;
 
     //If block to validate the principal amount
@@ -28,7 +27,7 @@ function compute(){
      <span style="color:black";>,<br>at an interest rate of </span>
      <span style="color:red";>${rate} %.</span>
      <br><span style="color:black";>You will recieve an amount of </span>
-     <span style="color:red";>${totalAmount}</span><span style="color:black";>
+     <span style="color:red";>${interest}</span><span style="color:black";>
      ,<br>in the year</span><span style="color:red";> ${year}</span>`;
     }
 
